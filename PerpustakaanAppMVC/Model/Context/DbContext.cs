@@ -24,7 +24,7 @@ namespace PerpustakaanAppMVC.Model.Context
             {
                 // atur ulang lokasi database yang disesuaikan dengan
                 // lokasi database perpustakaan Anda
-                string dbName = @"E:\pemograman\Rezha_22.11.4750\11\Operasi CRUD MVC Part #2\PerpustakaanAppMVC\Database\DbPerpustakaan.db";
+                string dbName = @"C:\DATA\Data bacup\New folder\C#\pemograman lanjut\Operasi CRUD MVC Part #2\PerpustakaanAppMVC\Database\DbPerpustakaan.db";
 
                 // deklarasi variabel connectionString, ref: https://www.connectionstrings.com/
                 string connectionString = string.Format("Data Source={0};FailIfMissing=True", dbName);
